@@ -1,6 +1,5 @@
 # Placeholder
 
-[](https://github.com/faren-darian/definitions#placeholder)
 
 Placeholder in Python is like a temporary spot or marker in your code where you plan to put some specific information later. It's a way to say "I'll fill in this part with actual data when I need to."
 
@@ -18,7 +17,6 @@ print(message)
 ```
 # Objects
 
-[](https://github.com/faren-darian/definitions#objects)
 
 An object is like a container that holds data and functions related to that data. Almost everything in Python is an object. Example:
 ```bash
@@ -27,18 +25,17 @@ my_numbers = [1, 2, 3]  # my_numbers is a list object
 ```
 # Arguments
 
-[](https://github.com/faren-darian/definitions#arguments)
 
 Arguments are pieces of information that you pass into a function when you call it. They're like inputs for the function to work with. Example:
-
+```bash
 def greet(name, time_of_day):
     print(f"Good {time_of_day}, {name}!")
 
 greet("Alice", "morning")  # Outputs: Good morning, Alice!
+```
 
 # Parameteres
 
-[](https://github.com/faren-darian/definitions#parameteres)
 
 -   Parameters are variables listed in the definition of a function or method.
     
@@ -51,7 +48,6 @@ greet("Alice", "morning")  # Outputs: Good morning, Alice!
 
 # Attributes
 
-[](https://github.com/faren-darian/definitions#attributes)
 
 -   Attributes are pieces of information attached to an object. They're like characteristics or properties of the object.
     
@@ -64,39 +60,33 @@ greet("Alice", "morning")  # Outputs: Good morning, Alice!
 
 ## Key differences between parameteres and attributes
 
-[](https://github.com/faren-darian/definitions#key-differences-between-parameteres-and-attributes)
 
 ### 1. Lifespan:
 
-[](https://github.com/faren-darian/definitions#1-lifespan)
 
 -   Parameters exist only during the execution of the method.
 -   Attributes persist as long as the object exists.
 
 ### 2. Scope:
 
-[](https://github.com/faren-darian/definitions#2-scope)
 
 -   Parameters are local to the method they're defined in.
 -   Attributes can be accessed by any method in the class (and sometimes from outside the class).
 
 ### 3. Purpose:
 
-[](https://github.com/faren-darian/definitions#3-purpose)
 
 -   Parameters are used to pass data into methods.
 -   Attributes are used to store data that belongs to an object.
 
 ### 4. Assignment:
 
-[](https://github.com/faren-darian/definitions#4-assignment)
 
 -   Parameters get their values when a method is called.
 -   Attributes are typically assigned values within methods (often in  `__init__`), but can be modified later.
 
 ### 5. Syntax:
 
-[](https://github.com/faren-darian/definitions#5-syntax)
 
 -   Parameters are listed in method definitions:  `def method(parameter1, parameter2)`:
 -   Attributes are usually prefixed with  `self.`  inside class methods:  `self.attribute = value`
@@ -137,40 +127,26 @@ Let's break this down:
 
 ### 1. Object:
 
-[](https://github.com/faren-darian/definitions#1-object)
 
 An object is an instance of a class. In this example,  `my_car`  is an object of the  `Car`  class. Objects have their own set of attributes and can perform actions defined by their methods.
 
-### 2. Arguments
-Arguments are pieces of information that you pass into a function when you call it. They're like inputs for the function to work with. Example:
+### 2. Parameters:
 
-```
-def greet(name, time_of_day):
-    print(f"Good {time_of_day}, {name}!")
-
-greet("Alice", "morning")  # Outputs: Good morning, Alice!
-```
-### 3. Parameters:
-
-[](https://github.com/faren-darian/definitions#2-parameters)
 
 Parameters are variables in a method definition that act as placeholders for values passed when the method is called. In  `__init__(self, make, model, year)`,  `make`,  `model`, and  `year`  are parameters. In  `drive(self, distance)`, distance is a parameter.
 
 ### 3. Attributes:
 
-[](https://github.com/faren-darian/definitions#3-attributes)
 
 Attributes are variables that belong to an object and store its state. In this example,  `self.make`,  `self.model`,  `self.year`,  `self.mileage`, and  `self.running`  are all attributes. Note that  `mileage`  and  `running`  are attributes that weren't created from parameters.
 
 ### 4. Instance:
 
-[](https://github.com/faren-darian/definitions#4-instance)
 
 An instance is a specific realization of a class. It's synonymous with "object" in this context.  `my_car`  is an instance of the  `Car`  class.
 
 ### 5. Arguments:
 
-[](https://github.com/faren-darian/definitions#5-arguments)
 
 -   Arguments are the actual values passed to a method when it's called.
 -   In  `Car("Toyota", "Corolla", 2020)`, "Toyota", "Corolla", and 2020 are arguments.
