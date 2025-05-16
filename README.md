@@ -1,3 +1,10 @@
+# Function
+
+A function in Python is like a mini-program that Takes input (parameters), processes it (executes code), and returns output (optional).
+
+Python Functions: Input → Processing → Output
+
+
 # Placeholder
 
 
